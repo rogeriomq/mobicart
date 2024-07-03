@@ -15,18 +15,18 @@ const menu = ref<Array<IMenuItem>>([
   },
   {
     text: "Sobre",
-    to: "#about"
+    to: "#sobre"
   },
   {
     text: "Contato",
-    to: "#contact"
+    to: "#contato"
   }
 ])
 
 </script>
 
 <template>
-  <header id="#" class="w-full flex items-center bg-black gap-3">
+  <header class="w-full flex items-center bg-black gap-3">
     <div class="">
       <img class="w-12 animate-pulse skew-y-6" :src="mobicartLogo" />
     </div>

@@ -6,11 +6,11 @@ import Main from "./components/main.vue";
 </script>
 
 <template>
-  <div class="relative container flex flex-col gap-10 w-full bg-black m-auto rounded-md h-full text-white px-4 scroll-smooth">
+  <div class="relative container flex flex-col items-center gap-10 w-full bg-black m-auto rounded-md h-full text-white px-4 scroll-smooth">
 
-    <Header class="sticky top-0 left-0 right-0" />
+    <Header id="#" class="sticky top-0 left-0 right-0" />
     <Main class="" />
-    <About />
-    <Footer />
+    <About id="sobre" />
+    <Footer id="contato" />
   </div>
 </template>
