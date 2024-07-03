@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-import mobicartLogo from '../assets/mobicart-without-bg.png';
+import mobicartLogo from '../../assets/mobicart-without-bg.png';
 
 interface IMenuItem {
   text: string
